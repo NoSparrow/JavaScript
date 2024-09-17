@@ -5,4 +5,4 @@ function myFun() {
 	const nameAdj = Math.floor(Math.random() * adj.length);
 	console.log(adj[nameAdj] + " " + question);
 }
-myFun;
+myFun();
