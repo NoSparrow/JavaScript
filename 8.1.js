@@ -1,4 +1,4 @@
-const secretMes1 = "Jaka%20dzisiaj%20pogoda%eF";
+const secretMes1 = "Jaka%20dzisiaj%20pogoda%3F";
 const secretMes2 = "Jaka dzisiaj pogoda?";
 const decodedComp = decodeURIComponent(secretMes1);
 console.log(decodedComp);
