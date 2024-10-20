@@ -7,9 +7,10 @@ function scramble(val) {
 		// console.log(val.length);
 		let index = Math.floor(Math.random() * val.length);
 		temp += val[index];
-		console.log(temp);
+		// console.log(temp);
+        console.log(val)
 		val = val.substr(0, index) + val.substr(index + 1);
-		// console.log(val);
+		console.log(val);
 	}
 	return temp;
 }
